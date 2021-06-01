@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "typescript": "^4.3.2"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.9",
+    "exceljs": "^4.2.1",
+    "node-fetch": "^2.6.1",
+    "puppeteer": "^10.0.0"
+  },
+  "scripts": {
+    "start": "node out/index.js",
+    "build": "tsc"
+  }
+}
